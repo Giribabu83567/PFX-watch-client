@@ -1,0 +1,134 @@
+.login-auth-container{
+    min-height: 100vh;
+    background-color: rgb(201, 177, 152);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-card-container{
+    width: 45%;
+    height: auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px black;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.logo{
+    background-color:orangered;
+    color: white;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:560px) {
+    .login-card-container{
+        width: 80%;
+    }
+}
+@media screen and (min-width:560px) and (max-width:780px) {
+    .login-card-container{
+        width: 70%;
+    }
+}
+.login-user-input{
+    width: 60%;
+}
+
+.label-text{
+    font-family: Roboto;
+}
+.form-control{
+    box-shadow: none !important;
+    border: none !important;
+}
+.user-input{
+    background-color: rgb(203, 204, 206) !important;
+    color: black !important;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+.user-input-pwd{
+    background-color: rgb(203, 204, 206) !important;
+    color: black !important;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+.show-pwd-checkbox{
+    margin-right: 5px;
+}
+.navigate-signup{
+    width: 60%;
+    font-family: Roboto;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.navTo-signup{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:780px) {
+    .login-user-input{
+        width: 70%;
+    }
+    .navigate-signup{
+        width: 70%;
+    }
+}
+
+/* Sign Up */
+.signup-card-container{
+    width: 55%;
+    height: auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px black;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media screen and (max-width:560px) {
+    .signup-card-container{
+        width: 80%;
+    }
+}
+
+.login-btn, .signup-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Roboto;
+    padding: 5px 0px;
+}
+@media screen and (min-width:990px) and (max-width:2500px) {
+    .signup-btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup-btn{
+        width: 50%;
+    }
+}
+.navigate-login{
+    font-family: Roboto;
+    margin-top: 0px;
+    font-size: 18px;
+}
+.navTo-login{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.error-msg{
+    color: red;
+    margin-top: 5px;
+}

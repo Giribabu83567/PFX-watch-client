@@ -1,0 +1,68 @@
+
+.logout-btn{
+    color: white;
+    background-color: purple;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 5px 15px;
+    
+}
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-icon{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    border: none;
+
+    /* display: flex; 
+    justify-content: center;
+    align-items: center; */
+}
+
+.theme-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+
+.pfx-logo{
+    background-color: purple;
+    color: white;
+}
+.pfxWatch-logo{
+    color: black;
+}
+.moon-icon{
+    color: white;
+}
+
+/* Logout Button Modal */
+.modal-question{
+    font-size: 18px;
+    font-weight: 500;
+}
+.yes-btn{
+    margin: 0px 20px;
+}
+
+.light-theme{
+    background-color: white;
+    color: black;
+}
+.dark-theme{
+    background-color: black;
+    color: white;
+}

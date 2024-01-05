@@ -1,0 +1,28 @@
+
+.image-url{
+    width: 100%;
+}
+.thumbnail-title{
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+
+    width:100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.channel-logo-container{
+    margin-right: 10px;
+}
+.channel-logo{
+    width: 50px;
+}
+.link-items{
+    text-decoration: none;
+    color: blue;
+}

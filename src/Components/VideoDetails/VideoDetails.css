@@ -1,0 +1,39 @@
+.vide-title{
+    margin-top: 10px;
+}
+.views-date-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-dislike-container{
+    display: flex;
+    align-items: center;
+}
+.line-hr{
+    border: 2px solid black;
+}
+.channel-container{
+    display: flex;
+    align-items: center;
+}
+.video-channel-logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.channel-description{
+    font-family: Roboto;
+    font-weight: 500;
+}
+.like-btn{
+    color: blue;
+    border: none;
+}
+.like-btn-container{
+    border: none;
+    outline: none;
+    background-color: white;
+}

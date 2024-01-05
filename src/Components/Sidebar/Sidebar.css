@@ -1,0 +1,29 @@
+.sidebar-container{
+  /* background-color:white; */
+  width: 100%;
+  height: auto;
+  
+}
+.sidebar-content{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: blue;
+}
+.sidebar-content:hover{
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+.sidebar-page{
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sidebar-icons{
+  font-size: 20px;
+  font-weight: 500;
+}
+.sidebar-link-items{
+  text-decoration: none;
+}
